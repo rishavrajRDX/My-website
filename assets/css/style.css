@@ -967,7 +967,20 @@ a.button4:hover {
     padding: 1em;
     margin: 0;
 }
+@media (max-width: 480px) {
+.portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+    color: #ffffff;
+    font-size: 0px;
+    padding: 1em;
+    margin: 0;
+}
 
+}
 .portfolio .portfolio-wrap .portfolio-links {
     text-align: center;
     z-index: 4;
